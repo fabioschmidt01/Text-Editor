@@ -12,6 +12,8 @@ root.config(menu=menubar)
 filemenu=Menu(menubar, tearoff=False)
 menubar.add_cascade(label='Arquivo', menu=filemenu)
 
+filemenu.add_command(label='Novo')
+
 editmenu=Menu(menubar, tearoff=False)
 menubar.add_cascade(label='Editar', menu=editmenu)
 
